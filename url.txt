@@ -1,0 +1,4 @@
+Google Collab : https://colab.research.google.com/drive/1HAeqv03njBDUq3vh-Hb-0EtzGMCdDu7u?usp=sharing
+
+Local URL: http://localhost:8501
+Network URL: http://192.168.1.32:8501
