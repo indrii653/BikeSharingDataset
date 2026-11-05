@@ -30,3 +30,20 @@ Jika Anda menyimpan atau memperbarui file `README.md` tersebut di folder proyek 
 git add .
 git commit -m "Update README.md dengan petunjuk jalannya aplikasi"
 git push
+
+
+## 📁 Struktur Direktori Proyek
+
+```text
+submission/
+├── Bike-sharing-dataset/     # Dataset mentah dari sumber utama
+│   ├── Readme.txt
+│   ├── day.csv
+│   └── hour.csv
+├── dashboard/                # Folder aplikasi dashboard
+│   ├── all_data.csv          # Dataset utama yang sudah dibersihkan untuk dashboard
+│   └── dashboard.py          # Script utama aplikasi Streamlit
+├── Proyek_Analisis_Data.ipynb # Notebook Jupyter untuk analisis data & EDA
+├── requirements.txt          # Daftar dependensi Python yang dibutuhkan
+├── README.md                 # Dokumentasi dan panduan menjalankan proyek
+└── url.txt                   # Link aplikasi dashboard yang sudah ter-deploy
